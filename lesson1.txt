@@ -1,0 +1,134 @@
+the difference between artifical intelligence vs neural networks vs machine learning:
+
+Artifical intelligence:
+Definition:
+the effort to automate intellectual tasks normally performed by human tasks.
+
+AI first created in about 1950.
+scientists were asking if computers can think.
+this is when AI was coined. back then AI was simply a set of predefined rules.
+for example instructions to play tik-tak-toe
+if you wanted the computer to do something you had to tell it what to do for each scenario
+so a good AI just had good rules.
+this means AI can be very simple or very complex.
+this means that the "CPU" player on a chess app is an AI
+
+AI just means to simulate intellectual human behaviour.
+
+--------------------------------------------------------------------------------------
+
+Machine Learning:
+machine learning figures out the rules for us rather than us giving it hte rules.
+
+the way machine learning works is that we give it input and what the output should be and
+it figures out the correct rules.
+
+our goal when creating machine learning models is to elevate the accuracy of the output
+from the rules.
+
+essentially:rather than giving the algorithm rules, the algorithm gives us rules
+
+----------------------------------------------------------------------------------------
+Neural Networks:
+
+a neural netowrk is a form of machine learning using a layered representation of data
+
+to analogise neural networks to machine learning:
+the way ML works is to give input (in an input layer) to a set of rules (hidden layer)
+resulting in an output (in the output layer)
+
+this is similar to NNs
+
+there is an input layer, following this one or more hidden layers, and lastly an output
+
+Step one: input
+Step two: input is transformed
+Step three: features from the input are extracted
+Step four: based on weights an output/result is created
+
+neural networks are actually not modelled after the brain, there is a biological
+inspiration for the name but that is essentially it.
+
+-----------------------------------------------------------------------------------------
+Data:
+
+if we have an example of students data:
+
+Midterm 1 : 70 60 40
+midterm 2 : 80 90 50
+final     : 77 84 38
+given any two of these data how can we predict the third?
+
+whatever information we have which is input, is what we call features.
+
+lets say we're trying to predict midterm 2, our input/features are midterm 1 and final
+
+this would make midterm 2 the "label".
+
+Features : our input information.
+
+label : our output information/prediction.
+
+the reason we need lots of data is that we are trying to come up with the best set of rules to produce outputs
+which are as accurate as possible.
+
+---------------------------------------------------------------------------------------------------------------------
+
+Different types of machine learning:
+
+- unsupervised learning
+- supervised learning
+- reinforcement learning
+
+Supvervised Learning:
+we have some features, those features correspond to a given label or labels.
+
+the reason its called supervised is that it makes an arbitrary prediction and compares this prediction to the real result
+so the model is supervised, tweaked slightly to try and get closer to the real result.
+
+                                                            -----------
+unsupervised learning:
+
+this is when we only have features.
+
+what we would like to do is have the model come up with labels for us
+
+
+lets say we have 2 dimensional data on a graph (features)
+
+one one side is x on the other is y
+
+the features in this case is x and y
+
+what we want to do is cluster the data points on the graph
+
+then if we enter a new data point we could predict which cluster the data point belongs to.
+
+                                                    -------------
+Reinforcement Learning:
+this is when we have no data at all.
+
+all you have is an agent, an environment, and a reward.
+
+let's say we have a person, some land and a flag on that land.
+
+we call the person the "agent"
+
+we call the entire scenario the "environment".
+
+a reward is what the agent gets if he does something correctly.
+
+lets say the agent moves towards the flag, we could give him a reward of 2
+
+lets say the agent moves away from the flag, we could give him a reward of -1.
+
+so the agent will learn to go in specific directions to maximise its reward
+
+the agent will learn this through a mixture of exploring and exploiting the already known information.
+
+what the programmer must know is how to reward the agent.
+
+
+
+
+

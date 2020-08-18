@@ -1,0 +1,26 @@
+Tensorflow core learning algorithms:
+
+these are not specific to tensorflow but are in the library
+
+    - Linear Regression
+    - classification
+    - clustering
+    - hidden markov model
+
+Linear Regression:
+
+linear regression essentially tries to find a linear correspondance between datapoints
+so linear regression is basically trying to produce the most accurate line of best fit.
+
+
+linear regression is useful since it is a basic and simple method of finding a
+relationship between data points its downside is that since it is a straight line the
+equation for the line must be linear, and non-exponential whereas polynomial regression
+produces non-linear lines.
+
+on a 2d graph a line can be defined as y=mx +b
+
+m is the gradient which is calculated using rise/run
+y is the coordinate of the dependent variable or Label
+x is the coordinate of the independent variable or Label.
+b is the y-intercept.

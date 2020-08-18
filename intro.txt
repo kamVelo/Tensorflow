@@ -1,0 +1,100 @@
+Artificial Intelligence is the attempt to automate human intellectual tasks.
+
+originally the question was "can we make computers think?" .
+initially AI was simply a predefined set of rules for completing a task to
+achieve a goal. AI can be simple or complex.
+
+The way AI was judged to be good or bad was simply by the quality of the predefined
+rules.
+
+hierarchy:
+- AI: uses a set of rules to achieve a goal.
+    - ML: takes the data and figures out what the rule should be.
+        - NN: Neural Networks/Deep Learning is a form of machine learning using
+               a layered representation of data.
+
+
+Classical Programming:
+    - takes in data and rules and produces answers
+Machine Learning:
+    - takes in data an answers and produces rules
+    - there is an Input layer and an Output layer and there are simply rules
+    connecting these.
+
+Neural Networks:
+    - There's an input layer, and between this and the output layer there are
+    multiple hidden layers processing the data eventually reaching the output
+    layer.
+    - Neural Networks are not actually modelled around how our brain works although
+    there is a biological inspiration for the name.
+
+--------------------------------------------------------------------------------
+
+                                        Data:
+    dataset:
+            1  2  3
+Midterm 1: 70 60 40
+midterm 2: 80 90 50
+final    : 77 84 38
+
+Assume we are given midterm 1 and final grade and we are predicting midterm 2:
+
+the inputs (midterm 1 and final) are called "features".
+
+the output (midterm 2) is called the "label".
+
+For most machine learning models we need lots of data so the model can come up with
+the best generalised rules for future input features.
+
+when training the model we give it all the information including both labels and
+features.
+
+when testing hte model we only give it the features.
+
+-------------------------------------------------------------------------------------
+
+                                        Different types of machine learning:
+
+- unsuperverised learning
+- supervised learning
+- Reinforcement Learning
+
+Supervised Learning:
+
+Features -> Label(s)
+
+we pass the features and labels and the machine learning model learns from both
+labels and features.
+
+the reason this is called supervised is that initally the model makes some arbitrary
+prediction and then compares this prediction to the actual value and alters the
+rules slightly based on this. Thus the model is being supervised and improved in
+such a way.
+
+most machine learning is done using supervised learning.
+
+Unsupervised learning:
+
+this is when we only have features, and absolutely no labels.
+
+we need the model to come up with labels for us.
+
+the way this is done is by having the model group/classify groups of feature
+clusters where there is a group of similar data and classify them as such
+thus when given a new set of features to predict from it checks which cluster
+the features fit into best.
+
+Reinforcement Learning:
+
+this is where we don't have any actual data.
+
+all we have is an agent, an environment and a reward.
+
+for example:
+we could have an agent within an environment with a flag at the end of it.
+and every time the agent takes a step closer to the flag we give the agent a
+reward
+
+
+
+

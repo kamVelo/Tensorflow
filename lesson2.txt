@@ -1,0 +1,103 @@
+Tensorflow:
+
+tensorflow is an open-source machine learning library maintained and supported by google
+
+tensorflow allows us to do machine learning without some of the more complicated mathematics.
+
+as we learn more about machine learning the maths becomes more and more complicated, tensorflow allows us to avoid this.
+
+
+we can do these with tensorflow:
+    - image classification
+    - data clustering
+    - regression
+    - reinforcement learning
+    - natural language processing
+
+
+how does tensorflow work:
+tensorflow has two main components:
+    - graphs
+    - sessions
+
+essentially what we do when we code in tensorflow we add to a computational graph
+it is similar to writing down an equation without actually evaluating it.
+
+it is called a graph because the computations are linked:
+
+lets say we have variables v1, v2,v3
+
+we want to know what v1 is.
+
+but v1 = v2 + v3
+
+this would mean we would have to compute the values of v2 and v3 before evaluating v1
+
+a tensorflow session allows us to execute partof the graph it handles and allocates execution, memory and resources
+which we have defined.
+
+--------------------------------------------------------------------------------------------------------------------
+Tensors:
+
+a tensor is a vector generalised to higher dimensions
+
+a vector is a datapoint
+a vector can have any number of dimensions.
+for example you have a 2 dimensional datapoint with an x and y value
+each tensor represents a partially defined computation which will eventually produce a value.
+
+a tensor has a data type and shape:
+data type: float32 int32 string and others
+shape: represents the dimensions of data
+
+here is an example tensor:
+string = tf.Variable("hello", tf.string)
+
+this tensor has a shape of 1, meaning it is a scalar value meaning it has only one value
+a vector is an array of values
+a matrix is an array of arrays within which there are values
+
+The rank/degree of tensors:
+
+the rank or degree of a tensor is simply the number of dimensions involved in the tensor
+
+the tensors above are all scalars so they have rank 0
+
+This is a rank 1 tensor:
+rank1 = tf.Variable(["Test", "Test2"], tf.String)
+it is a vector and is a rank 1 tensor because it has 1 list and can store multiple values in one list.
+
+this is a rank 2 tensor:
+rank2 = tf.Variable([["ali","kamel"],["keira","gratton"]], tf.String)
+it is a matrix and is a rank 2 tensor because it has a list inside a list
+
+to determine the rank of a tensor we simply call:
+tf.rank([tensor])
+
+to get shape we can type
+tensor.shape
+
+apart from tf.Variable all other tensors are immutable meaning their value cannot change during execution:
+    - tf.Constant
+    - tf.Placeholder
+    - tf.SparseTensor
+
+thus, if tf.Variable is used this implies we expect this to change.
+
+sometimes when we need to evaluate a tensor we do so using a tf.Session():
+
+with tf.Session as sess:
+    tensor.eval() #tensor here is of course the tensor which is being evaluated.
+
+
+
+
+
+
+
+
+
+
+
+
+
