@@ -1,10 +1,150 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ec26479d-0bf4-4b8a-8452-74ba5a3ce15f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/lesson3_classification.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson3_regression.py" beforeDir="false" afterPath="$PROJECT_DIR$/lesson3_regression.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1gA8l1Atr7zJAuR2KuwEEsSqhFB" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\alika\OneDrive\Zeno\tensorflow2" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.lesson3_classification">
+    <configuration name="lesson3_classification" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="tensorflow" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson3_classification.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="lesson3_regression" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="tensorflow" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lesson3_regression.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ec26479d-0bf4-4b8a-8452-74ba5a3ce15f" name="Default Changelist" comment="" />
+      <created>1597735639576</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1597735639576</updated>
+    </task>
+    <task id="LOCAL-00001" summary="beginnings of lesson 3">
+      <created>1597735684459</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1597735684459</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="beginnings of lesson 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="beginnings of lesson 3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="688" y="0" key="#lesson3_classification" timestamp="1598353025958">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="688" y="0" key="#lesson3_classification/0.0.1280.680@0.0.1280.680" timestamp="1598353025958" />
+    <state x="680" y="0" key="#lesson3_regression" timestamp="1597735927154">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="680" y="0" key="#lesson3_regression/0.0.1280.680@0.0.1280.680" timestamp="1597735927154" />
+    <state x="593" y="0" key="CommitChangelistDialog2" timestamp="1597735684068">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="593" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1597735684068" />
+    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1597752530857">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1597752530857" />
+    <state width="618" height="158" key="GridCell.Tab.0.bottom" timestamp="1598482831698">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="618" height="158" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1598482831698" />
+    <state width="618" height="158" key="GridCell.Tab.0.center" timestamp="1598482831698">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="618" height="158" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1598482831698" />
+    <state width="618" height="158" key="GridCell.Tab.0.left" timestamp="1598482831694">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="618" height="158" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1598482831694" />
+    <state width="618" height="158" key="GridCell.Tab.0.right" timestamp="1598482831698">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="618" height="158" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1598482831698" />
+    <state x="466" y="73" key="Vcs.Push.Dialog.v2" timestamp="1597735687042">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="466" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1597735687042" />
+    <state x="656" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1598482778220">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="656" y="164" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1598482778220" />
   </component>
 </project>
